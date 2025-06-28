@@ -1,0 +1,45 @@
+{
+  "name": "travel-planner-ai-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Travel Planner AI application",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "migrate": "node migrate-database.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "axios": "^1.10.0",
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.41.0",
+    "compression": "^1.8.0",
+    "cors": "^2.8.5",
+    "date-fns": "^3.6.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.5",
+    "express-validator": "^7.0.1",
+    "helmet": "^7.1.0",
+    "joi": "^17.11.0",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.7",
+    "openai": "^4.24.7",
+    "pg": "^8.16.2",
+    "razorpay": "^2.9.2",
+    "sequelize": "^6.37.7",
+    "stripe": "^14.9.0",
+    "uuid": "^9.0.1"
+  },
+  "keywords": [
+    "travel",
+    "planner",
+    "ai",
+    "backend",
+    "express",
+    "postgresql"
+  ],
+  "author": "Travel Planner AI Team",
+  "license": "MIT"
+}
