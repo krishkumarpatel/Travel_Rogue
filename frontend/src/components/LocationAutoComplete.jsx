@@ -15,7 +15,7 @@ const LocationAutoComplete = ({ onLocationSelect, placeholder = "Enter location.
     }
     setIsLoading(true);
     try {
-      const baseUrl = process.env.REACT_APP_API_URL || 'http://localhost:5000/api';
+      const baseUrl = process.env.REACT_APP_API_URL || 'https://travel-rogue.onrender.com/api';
       const response = await fetch(`${baseUrl}/locations/search?q=${encodeURIComponent(searchQuery)}`);
       
       if (!response.ok) {
